@@ -6,6 +6,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.3</version>
+         <packaging>war</packaging>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
@@ -13,7 +14,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>TwoDataBase</name>
     <description>Demo project for Spring Boot</description>
-      <packaging>war</packaging>
+    
     <properties>
         <java.version>17</java.version>
         <spring-cloud.version>2023.0.0</spring-cloud.version>
