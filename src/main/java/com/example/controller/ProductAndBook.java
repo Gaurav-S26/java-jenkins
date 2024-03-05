@@ -49,4 +49,9 @@ public class ProductAndBook {
         return productRepository.findAll();
     }
 
+    @GetMapping("/test")
+    public String test(){
+        logger.info("TTTTTTTSTNG");
+        return new String("TTTTTTTSTNG");
+    }
 }
