@@ -1,2 +1,0 @@
-# java-jenkins
- jenkins-demo
