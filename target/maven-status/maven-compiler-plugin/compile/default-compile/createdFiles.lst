@@ -1,0 +1,8 @@
+com\example\secondsql\repository\BooksRepository.class
+com\example\sql\repository\ProductRepository.class
+com\example\secondsql\config\BooksConfig.class
+com\example\TwoDataBaseApplication.class
+com\example\sql\entity\Product.class
+com\example\sql\config\ProductConfig.class
+com\example\controller\ProductAndBook.class
+com\example\secondsql\entity\Books.class
