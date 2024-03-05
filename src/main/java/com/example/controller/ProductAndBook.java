@@ -45,13 +45,8 @@ public class ProductAndBook {
 
     @GetMapping("/product")
     public List<Product> getOrders(){
-        logger.info("This is Example file");
+        logger.info("This is Example file are one");
         return productRepository.findAll();
     }
 
-    @GetMapping("/test")
-    public String test(){
-        logger.info("TTTTTTTSTNG");
-        return new String("TTTTTTTSTNG");
-    }
 }
