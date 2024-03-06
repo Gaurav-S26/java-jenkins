@@ -15,6 +15,6 @@ public class ProductAndBookTest {
 
     @Test
     public void testTe(){
-        productAndBook.getOrders()
+        productAndBook.testMethod()
     }
 }
