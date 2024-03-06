@@ -49,4 +49,10 @@ public class ProductAndBook {
         return productRepository.findAll();
     }
 
+    @GetMapping
+    public String testMethod(){
+       return "hello world";
+    }
+
+
 }
