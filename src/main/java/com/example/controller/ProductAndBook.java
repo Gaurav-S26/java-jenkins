@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/multidb")
+// @RequestMapping(value = "/multidb")
 public class ProductAndBook {
 
     @Autowired
@@ -49,7 +49,7 @@ public class ProductAndBook {
         return productRepository.findAll();
     }
 
-    @GetMapping
+    @GetMapping("/test)
     public String testMethod(){
        return "hello world";
     }
